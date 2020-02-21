@@ -217,7 +217,7 @@ end
 
 tricontour(triout, u_discretised)
 
-savefig("triangulate_plotting_demo_" + backend_name() + ".pdf")
-savefig("triangulate_plotting_demo_" + backend_name() + ".png")
+savefig("triangulate_plotting_demo_" * String(backend_name()) * ".pdf")
+savefig("triangulate_plotting_demo_" * String(backend_name()) * ".png")
 
 plot!()
